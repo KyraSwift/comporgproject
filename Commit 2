@@ -1,0 +1,4 @@
+.data
+out_string: .asciiz "\n@02852494\n"
+.text
+main:
