@@ -1,0 +1,20 @@
+.text #Print Each Character
+	main:
+	li $v0, 11
+	addi $a0, $a0, 62
+	syscall
+	addi $a0, $a0, -16
+	syscall
+	addi $a0, $a0, 2
+	syscall
+	addi $a0, $a0, 6
+	syscall
+	addi $a0, $a0, -3
+	syscall
+	addi $a0, $a0, -3
+	syscall
+	addi $a0, $a0, 2
+	syscall
+	addi $a0, $a0, 5
+	syscall
+	addi $a0, $a0, -5
