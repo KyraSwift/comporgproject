@@ -1,0 +1,7 @@
+.text
+#Print Each Character
+	main:
+	li $v0, 11
+	addi $a0, $a0, 62
+	syscall
+
